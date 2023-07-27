@@ -44,7 +44,7 @@ function Accordion({ data }) {
   );
 }
 
-function AccordianItem({ num, title, text, curOpen, onOpen, children }) {
+function AccordianItem({ num, title, curOpen, onOpen, children }) {
   const isOpen = num === curOpen;
 
   function handleToggle() {
