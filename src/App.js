@@ -18,9 +18,9 @@ const faqs = [
 
 export default function App() {
   return (
-    <div>
+    <>
       <Accordion data={faqs} />
-    </div>
+    </>
   );
 }
 
@@ -40,6 +40,21 @@ function Accordion({ data }) {
           {el.text}
         </AccordianItem>
       ))}
+
+      <AccordianItem
+        curOpen={curOpen}
+        onOpen={setCurOpen}
+        title={"Thinking in React"}
+        num={3}
+        key={"Thinking in React"}
+      >
+        <p>Allow React developers to :</p>
+        <ul>
+          <li>Break up UI into components</li>
+          <li>Make components reusable</li>
+          <li>Place state efficiently</li>
+        </ul>
+      </AccordianItem>
     </div>
   );
 }
