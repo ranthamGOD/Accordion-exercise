@@ -52,7 +52,7 @@ function Accordion({ data }) {
         <ul>
           <li>Break up UI into components 💪</li>
           <li>Make components reusable 😲</li>
-          <li>Place state efficiently</li>
+          <li>Place state efficiently ✔</li>
         </ul>
       </AccordianItem>
     </div>
