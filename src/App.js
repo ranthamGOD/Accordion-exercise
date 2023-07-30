@@ -48,7 +48,7 @@ function Accordion({ data }) {
         num={3}
         key={"Thinking in React"}
       >
-        <p>Allows React developers to :</p>
+        <p>Allow React developers to :</p>
         <ul>
           <li>Break up UI into components 💪</li>
           <li>Make components reusable 😲</li>
