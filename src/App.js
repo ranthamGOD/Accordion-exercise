@@ -50,8 +50,8 @@ function Accordion({ data }) {
       >
         <p>Allow React developers to :</p>
         <ul>
-          <li>Break up UI into components 💪</li>
           <li>Place state efficiently ✔</li>
+          <li>Break up UI into components 💪</li>
           <li>Make components reusable 😲</li>
         </ul>
       </AccordianItem>
